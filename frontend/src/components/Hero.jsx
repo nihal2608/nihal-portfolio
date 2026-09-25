@@ -9,7 +9,6 @@ export default function Hero() {
   const fullName = profile?.fullName || "Your Name";
   const designation = profile?.designation || "Java Backend Engineer";
   const about =
-    profile?.about ||
     "Java Backend Developer specializing in Spring Boot, Microservices, SIEM Platforms, MDM Solutions and AI Powered Applications.";
   const years = profile?.experienceYears ?? 0;
 
