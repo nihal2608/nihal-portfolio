@@ -104,7 +104,9 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto flex justify-center">
+       
           <div className="relative h-80 w-72 overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-100 to-slate-200 dark:border-white/10 dark:from-slate-800 dark:to-slate-900 sm:h-96 sm:w-80">
+            {console.log("PROFILE IMAGE:", profile?.profileImage)}
             {profile?.profileImage ? (
               <img src={profile.profileImage} alt={fullName} className="h-full w-full object-cover" />
             ) : (
